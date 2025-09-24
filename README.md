@@ -16,7 +16,7 @@ JAX-HDC is a Python library for _Hyperdimensional Computing_ (also known as _Vec
 
 - **Blazingly Fast:** JAX-HDC leverages JAX's just-in-time compilation and vectorization capabilities to deliver state-of-the-art performance for HDC operations. Experience unprecedented speed with automatic hardware acceleration on CPUs, GPUs, and TPUs.
 - **Functionally Pure:** Built with JAX's functional programming paradigm, JAX-HDC operations are pure functions that enable seamless composition, transformation, and optimization of your HDC pipelines.
-- **Easy-to-use:** JAX-HDC makes it effortless to develop a wide range of Hyperdimensional Computing applications. For newcomers, we provide Pythonic abstractions and examples to get you started fast. For experienced researchers, the modular design gives you unlimited flexibility to prototype novel ideas rapidly.
+- **Easy-to-use:** JAX-HDC makes it effortless to develop a wide range of Hyperdimensional Computing applications. For newcomers, it provides Pythonic abstractions and examples to get you started fast. For experienced researchers, the modular design gives you unlimited flexibility to prototype novel ideas rapidly.
 - **Differentiable:** Harness JAX's automatic differentiation to optimize HDC models end-to-end with gradient-based methods, opening new possibilities for learnable HDC architectures.
 
 ## Installation
@@ -54,7 +54,7 @@ You can improve the documentation by sending pull requests to this repository.
 
 ## Examples
 
-We have several examples [in the repository](https://github.com/yourusername/jax-hdc/tree/main/examples). Here is a simple one to get you started:
+There are several examples [in the repository](https://github.com/yourusername/jax-hdc/tree/main/examples). Here is a simple one to get you started:
 
 ```python
 import jax
@@ -108,7 +108,7 @@ Currently, the library supports the following HDC/VSA models:
 - [Modular Composite Representation (MCR)](https://jax-hdc.readthedocs.io/en/stable/generated/jax_hdc.MCR.html)
 - [Vector-Derived Transformation Binding (VTB)](https://jax-hdc.readthedocs.io/en/stable/generated/jax_hdc.VTB.html)
 
-We welcome anyone to help with contributing more models to the library!
+Contributions of new models to the library are welcome!
 
 ## Why JAX for HDC?
 
@@ -123,7 +123,7 @@ JAX brings several compelling advantages for Hyperdimensional Computing:
 
 ## Contributing
 
-We are always looking for people that want to contribute to the library. If you are considering contributing for the first time we acknowledge that this can be daunting, but fear not! You can look through the [open issues](https://github.com/yourusername/jax-hdc/issues) for inspiration on the kind of problems you can work on. If you are a researcher and want to contribute your work to the library, feel free to open a new issue so we can discuss the best strategy for integrating your work.
+Contributors to the library are always welcome. If you are considering contributing for the first time I acknowledge that this can be daunting, but fear not! You can look through the [open issues](https://github.com/yourusername/jax-hdc/issues) for inspiration on the kind of problems you can work on. If you are a researcher and want to contribute your work to the library, feel free to open a new issue so I can discuss the best strategy for integrating your work.
 
 ### Documentation
 
@@ -168,4 +168,8 @@ If you use JAX-HDC in your work, please cite:
 
 ## Acknowledgments
 
+<<<<<<< Updated upstream
 JAX-HDC is inspired by the excellent [TorchHD](https://github.com/hyperdimensional-computing/torchhd) library and aims to bring the power of JAX to the Hyperdimensional Computing community. We thank the TorchHD authors for their foundational work in creating accessible HDC tools.
+=======
+JAX-HDC is inspired by the excellent [TorchHD](https://github.com/hyperdimensional-computing/torchhd) library and aims to bring the power of JAX to the Hyperdimensional Computing community. I thank the TorchHD authors for their foundational work in creating accessible HDC tools.
+>>>>>>> Stashed changes
