@@ -168,8 +168,4 @@ If you use JAX-HDC in your work, please cite:
 
 ## Acknowledgments
 
-<<<<<<< Updated upstream
-JAX-HDC is inspired by the excellent [TorchHD](https://github.com/hyperdimensional-computing/torchhd) library and aims to bring the power of JAX to the Hyperdimensional Computing community. We thank the TorchHD authors for their foundational work in creating accessible HDC tools.
-=======
 JAX-HDC is inspired by the excellent [TorchHD](https://github.com/hyperdimensional-computing/torchhd) library and aims to bring the power of JAX to the Hyperdimensional Computing community. I thank the TorchHD authors for their foundational work in creating accessible HDC tools.
->>>>>>> Stashed changes
