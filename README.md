@@ -1,7 +1,6 @@
 <p align="center">
     <a href="https://github.com/yourusername/jax-hdc/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" /></a>
         <a href="https://pypi.org/project/jax-hdc/"><img alt="pypi version" src="https://img.shields.io/pypi/v/jax-hdc.svg?style=flat&color=blue" /></a>
-
     <a href="https://github.com/yourusername/jax-hdc/actions/workflows/test.yml?query=branch%3Amain"><img alt="tests status" src="https://img.shields.io/github/actions/workflow/status/yourusername/jax-hdc/test.yml?branch=main&label=tests&style=flat" /></a>
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" />
 </p>
