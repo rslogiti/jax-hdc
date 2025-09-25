@@ -14,27 +14,6 @@
 
 JAX-HDC is a Python library for _Hyperdimensional Computing_ (also known as _Vector Symbolic Architectures_) built on JAX.
 
-- **Blazingly Fast:** JAX-HDC leverages JAX's just-in-time compilation and vectorization capabilities to deliver state-of-the-art performance for HDC operations. Experience unprecedented speed with automatic hardware acceleration on CPUs, GPUs, and TPUs.
-- **Functionally Pure:** Built with JAX's functional programming paradigm, JAX-HDC operations are pure functions that enable seamless composition, transformation, and optimization of your HDC pipelines.
-- **Easy-to-use:** JAX-HDC makes it effortless to develop a wide range of Hyperdimensional Computing applications. For newcomers, it provides Pythonic abstractions and examples to get you started fast. For experienced researchers, the modular design gives you unlimited flexibility to prototype novel ideas rapidly.
-- **Differentiable:** Harness JAX's automatic differentiation to optimize HDC models end-to-end with gradient-based methods, opening new possibilities for learnable HDC architectures.
-
-## Installation
-
-JAX-HDC will be hosted on [PyPI](https://pypi.org/project/jax-hdc/). First, install JAX using their [installation instructions](https://jax.readthedocs.io/en/latest/installation.html). Then, use one of the following commands to install JAX-HDC:
-
-```bash
-pip install jax-hdc
-```
-
-For development installation:
-
-```bash
-git clone https://github.com/yourusername/jax-hdc.git
-cd jax-hdc
-pip install -e .
-```
-
 ## Documentation
 
 You can find documentation for JAX-HDC [on the website](https://jax-hdc.readthedocs.io).
@@ -109,62 +88,6 @@ Currently, the library supports the following HDC/VSA models:
 - [Vector-Derived Transformation Binding (VTB)](https://jax-hdc.readthedocs.io/en/stable/generated/jax_hdc.VTB.html)
 
 Contributions of new models to the library are welcome!
-
-## Why JAX for HDC?
-
-JAX brings several compelling advantages for Hyperdimensional Computing:
-
-- **Performance**: JIT compilation and XLA optimization deliver superior performance compared to eager execution frameworks
-- **Hardware Acceleration**: Seamless scaling from CPU to GPU to TPU without code changes
-- **Functional Programming**: Pure functions enable better composition and transformation of HDC operations
-- **Automatic Differentiation**: Enable gradient-based optimization of HDC models and end-to-end differentiable HDC pipelines
-- **Vectorization**: `vmap` allows easy batching and parallel processing of HDC operations
-- **Parallelization**: `pmap` enables effortless multi-device computation for large-scale HDC applications
-
-## Contributing
-
-Contributors to the library are always welcome. If you are considering contributing for the first time I acknowledge that this can be daunting, but fear not! You can look through the [open issues](https://github.com/yourusername/jax-hdc/issues) for inspiration on the kind of problems you can work on. If you are a researcher and want to contribute your work to the library, feel free to open a new issue so I can discuss the best strategy for integrating your work.
-
-### Documentation
-
-To build the documentation locally do the following:
-
-1. Use `pip install -r docs/requirements.txt` to install the required packages.
-2. Use `sphinx-build -b html docs build` to generate the html documentation in the `/build` directory.
-
-To create a clean build, remove the `/build` and `/docs/generated` directories.
-
-### Creating a New Release
-
-1. Increment the version number in [version.py](https://github.com/yourusername/jax-hdc/blob/main/jax_hdc/version.py) using [semantic versioning](https://semver.org).
-2. Create a new GitHub release. Set the tag according to [PEP 440](https://peps.python.org/pep-0440/), e.g., v1.5.2, and provide a clear description of the changes. You can use GitHub's "auto-generate release notes" button. Look at previous releases for examples.
-3. A GitHub release triggers a GitHub action that builds the library and publishes it to PyPI in addition to the documentation website.
-
-### Running Tests
-
-To run the unit tests located in [`jax_hdc/tests`](https://github.com/yourusername/jax-hdc/tree/main/jax_hdc/tests) do the following:
-
-1. Use `pip install -r dev-requirements.txt` to install the required development packages.
-2. Then run the tests using just `pytest`.
-
-Optionally, to measure the code coverage use `coverage run -m --omit="jax_hdc/tests/**" pytest` to create the coverage report. You can then view this report with `coverage report`.
-
-### License
-
-This library is [MIT licensed](https://github.com/yourusername/jax-hdc/blob/main/LICENSE).
-
-## Cite
-
-If you use JAX-HDC in your work, please cite:
-
-```bibtex
-@software{jax_hdc,
-  author = {Your Name},
-  title = {JAX-HDC: High-Performance Hyperdimensional Computing with JAX},
-  url = {https://github.com/yourusername/jax-hdc},
-  year = {2024}
-}
-```
 
 ## Acknowledgments
 
